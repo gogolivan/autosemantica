@@ -1,12 +1,16 @@
 = AutoSemantica
 A perception system for autonomous driving.
 
-== Requirements
+== Prerequisites
 * https://www.docker.com/[Docker]
 
 * https://code.visualstudio.com/[Visual Studio Code]
 
-* https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[Visual Studio Code Dev Containers]
+** https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[Visual Studio Code Dev Containers]
+
+== Getting Started
+. Open the Command Palette.
+. Select **Dev Containers: Reopen in Container**.
 
 == References
 * https://git-scm.com/book/en/v2/Git-Tools-Submodules[Git Submodules]
