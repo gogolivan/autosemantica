@@ -1,0 +1,22 @@
+= AutoSemantica
+A perception system for autonomous driving.
+
+== Requirements
+* https://www.docker.com/[Docker]
+
+* https://code.visualstudio.com/[Visual Studio Code]
+
+* https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers[Visual Studio Code Dev Containers]
+
+== References
+* https://git-scm.com/book/en/v2/Git-Tools-Submodules[Git Submodules]
+
+* https://docs.asciidoctor.org/asciidoc/latest/[AsciiDoc]
+
+* https://agents.md/[AGENTS.md]
+
+* https://containers.dev/[Development Containers]
+
+* https://docs.astral.sh/uv/[UV]
+
+* https://www.conventionalcommits.org/en/v1.0.0/[Conventional Commits]

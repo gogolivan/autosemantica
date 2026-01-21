@@ -1,0 +1,28 @@
+{
+	"name": "AutoSemantica Model",
+	"dockerComposeFile": [
+		"../../docker-compose.yml"
+	],
+	"service": "autosemantica-model",
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {
+			"toolsToInstall": "flake8,autopep8,black,yapf,mypy,pydocstyle,pycodestyle,bandit,pipenv,virtualenv,pytest,pylint,uv"
+		}
+	},
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/autosemantica-model",
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"redhat.vscode-yaml",
+				"streetsidesoftware.code-spell-checker",
+				"ms-azuretools.vscode-docker",
+				"asciidoctor.asciidoctor-vscode"
+			]
+		},
+		"settings": {
+			"editor.tabSize": 2
+		}
+	}
+}

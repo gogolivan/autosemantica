@@ -1,0 +1,7 @@
+services:
+  autosemantica-model:
+    image: mcr.microsoft.com/devcontainers/base:noble
+    container_name: autosemantica-model
+    volumes:
+      - .:/workspace
+    command: sleep infinity
