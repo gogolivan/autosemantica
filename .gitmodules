@@ -1,0 +1,3 @@
+[submodule "autosemantica-model"]
+	path = autosemantica-model
+	url = https://github.com/gogolivan/autosemantica-model
